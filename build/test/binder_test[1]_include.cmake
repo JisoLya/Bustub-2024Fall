@@ -1,0 +1,5 @@
+if(EXISTS "/Users/liuyange.7/CMU-15445-2024-Fall/build/test/binder_test[1]_tests.cmake")
+  include("/Users/liuyange.7/CMU-15445-2024-Fall/build/test/binder_test[1]_tests.cmake")
+else()
+  add_test(binder_test_NOT_BUILT binder_test_NOT_BUILT)
+endif()

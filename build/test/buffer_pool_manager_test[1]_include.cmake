@@ -1,5 +1,0 @@
-if(EXISTS "/Users/liuyange.7/CMU-15445-2024-Fall/build/test/buffer_pool_manager_test[1]_tests.cmake")
-  include("/Users/liuyange.7/CMU-15445-2024-Fall/build/test/buffer_pool_manager_test[1]_tests.cmake")
-else()
-  add_test(buffer_pool_manager_test_NOT_BUILT buffer_pool_manager_test_NOT_BUILT)
-endif()

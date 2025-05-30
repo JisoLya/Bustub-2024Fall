@@ -1,5 +1,0 @@
-if(EXISTS "/Users/liuyange.7/CMU-15445-2024-Fall/build/test/page_guard_test[1]_tests.cmake")
-  include("/Users/liuyange.7/CMU-15445-2024-Fall/build/test/page_guard_test[1]_tests.cmake")
-else()
-  add_test(page_guard_test_NOT_BUILT page_guard_test_NOT_BUILT)
-endif()
